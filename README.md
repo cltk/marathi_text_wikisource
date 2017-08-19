@@ -4,4 +4,4 @@ Classical Marathi texts taken from Marathi Wikipedia (<https://mr.wikipedia.org/
 
 # License
 
-Creative Commons Zero v1.0 Universal. See `LICENSE`.
+Creative Commons Zero v1.0 Universal. See [LICENSE](https://creativecommons.org/publicdomain/zero/1.0/).
