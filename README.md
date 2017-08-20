@@ -1,6 +1,6 @@
 # About
 
-Classical Marathi texts taken from Marathi Wikipedia (https://mr.wikisource.org/wiki/>) under license Creative Commons Attribution-ShareAlike 3.0 Unported
+Classical Marathi texts taken from Marathi Wikipedia (https://mr.wikisource.org>) under license Creative Commons Attribution-ShareAlike 3.0 Unported
 
 # License
 
