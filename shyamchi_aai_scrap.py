@@ -22,6 +22,7 @@ def write_shyamchiaai(lis, directory):
         for p in ps:
             lines = p.text
             lines = lines.replace('{{{notes}}}', ' ')
+            lines = lines.replace('<poem>', ' ')
             lines = lines.replace('<br>', ' ')
             f.write(lines.encode('utf-8') + "\n")
 
