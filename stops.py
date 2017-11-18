@@ -8,6 +8,8 @@ import os
 path = "./datasets/dnyaneshwari/"
 punctuation = '''''!()-[]{};:'"\,<>./?@#$%^&*_~'''
 extra_punctuation = '||'
+if os.path.isfile("./stop_words.txt"):
+    os.remove("./stop_words.txt")
 if os.path.isfile(path+"dnyaneshwari.txt"):
     os.remove(path+"dnyaneshwari.txt")
 final = ""
