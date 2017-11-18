@@ -4,40 +4,50 @@ import re
 from nltk.probability import FreqDist
 from cltk.tokenize.indian_tokenizer import indian_punctuation_tokenize_regex as i_word
 import os
-path = "/home/mahesh/Mahesh/marathi_text_wikisource/datasets/dnyaneshwari/"
-punctuation = '''''!()-[]{};:'"\,<>.|/?@#$%^&*_~'''
+
+path = "./datasets/dnyaneshwari/"
+punctuation = '''''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+extra_punctuation = '||'
 if os.path.isfile(path+"dnyaneshwari.txt"):
     os.remove(path+"dnyaneshwari.txt")
 final = ""
+
 for file_name in os.listdir(path):
     full_path = os.path.join(path, file_name)
     file_content = open(full_path).read()
     for char in file_content:
-        if char not in punctuation:
+        if char not in punctuation + extra_punctuation:
             final = final + char
     i_words = i_word(final)
-    f = open('/home/mahesh/Mahesh/marathi_text_wikisource/datasets/dnyaneshwari/dnyaneshwari.txt', 'a+')
+    f = open(path+"dnyaneshwari.txt", 'a+')
     word_string = '\n'.join(i_words)
     f.write(word_string)
-with open('/home/mahesh/Mahesh/marathi_text_wikisource/datasets/dnyaneshwari/dnyaneshwari.txt') as f1:
+
+with open(path + "dnyaneshwari.txt") as f1:
     dnyaneshwari_words = f1.read().splitlines()
-path = "/home/mahesh/Mahesh/marathi_text_wikisource/datasets/haripath/"
+
+os.remove(path+"dnyaneshwari.txt")
+path = "./datasets/haripath/"
+
 if os.path.isfile(path+"haripath.txt"):
     os.remove(path+"haripath.txt")
 final = ""
+
 for file_name in os.listdir(path):
     full_path = os.path.join(path, file_name)
     file_content = open(full_path).read()
     for char in file_content:
-        if char not in punctuation:
+        if char not in punctuation + extra_punctuation:
             final = final + char
     i_words = i_word(final)
-    f = open('/home/mahesh/Mahesh/marathi_text_wikisource/datasets/haripath/haripath.txt', 'a+')
+    f = open(path + "haripath.txt", 'a+')
     word_string = '\n'.join(i_words)
     f.write(word_string)
-with open('/home/mahesh/Mahesh/marathi_text_wikisource/datasets/haripath/haripath.txt') as f1:
+
+with open(path + "haripath.txt") as f1:
     haripath_words = f1.read().splitlines()
 
+os.remove(path+"haripath.txt")
 words = dnyaneshwari_words
 words = words + haripath_words
 fdist = FreqDist(words)
