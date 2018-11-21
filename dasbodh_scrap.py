@@ -31,7 +31,7 @@ def create_directory(directory):
         os.makedirs(directory)
 
 
-def get_adhyay_links():
+def get_dashak_links():
     directory = "./datasets/dasbodh"
     if not os.path.exists(directory):
         os.makedirs(directory)
@@ -45,4 +45,4 @@ def get_adhyay_links():
 
 
 if __name__ == "__main__":
-    get_adhyay_links()
+    get_dashak_links()
