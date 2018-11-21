@@ -21,11 +21,14 @@ The book includes the life story of Shri Narasimha Saraswati, his philosophy and
 ## Tukaram Gatha:
 Tukaram Gatha is a Marathi language compilation of his works, likely composed between 1632 and 1650.[22] Also called Abhanga Gatha, the Indian tradition believes it includes some 4,500 abhangas, but modern scholars have questioned the authenticity of most of them.[22] The poems considered authentic cover a wide range of human emotions and life experiences, some autobiographical, and places them in a spiritual context.[22] He includes a discussion about the conflict between Pravritti – having passion for life, family, business, and Nivritti – the desire to renounce, leave everything behind for individual liberation, moksha.
 
+##LaghuVakyavrutii
+
+Vakya Vritti is a Vedantic textbook, a small treatise, that concerns itself with the detailed and elaborate explanation of two Mahāvākyas – aham brahmāsmi and tat tvam asi which great Sruti sentences are intended to give a direct perception of Brahman.[1] In his Laghu vakya vritti Adi Shankara deals with the former vakya only.[2]
+
+Vakya Vritti is a text of fifty-two Sanskrit slokas written by Adi Shankara and is in the form of a dialogue between an eager student and an enlightened teacher. There exists a very old commentary on this text but the name of its author is not known
 ## Others to be collected
 
 There are many other classical datasets of Marathi on wikisource which will be availaible for download soon,
-
-[LaghuVakyakruti](https://mr.wikisource.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A5_%E0%A4%B2%E0%A4%98%E0%A5%81%E0%A4%B5%E0%A4%BE%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A5%80)
 
 [Eknathi Bhagvat](https://mr.wikisource.org/wiki/%E0%A4%8F%E0%A4%95%E0%A4%A8%E0%A4%BE%E0%A4%A5%E0%A5%80_%E0%A4%AD%E0%A4%BE%E0%A4%97%E0%A4%B5%E0%A4%A4)
 
