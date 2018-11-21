@@ -21,7 +21,7 @@ The book includes the life story of Shri Narasimha Saraswati, his philosophy and
 ## Tukaram Gatha:
 Tukaram Gatha is a Marathi language compilation of his works, likely composed between 1632 and 1650.[22] Also called Abhanga Gatha, the Indian tradition believes it includes some 4,500 abhangas, but modern scholars have questioned the authenticity of most of them.[22] The poems considered authentic cover a wide range of human emotions and life experiences, some autobiographical, and places them in a spiritual context.[22] He includes a discussion about the conflict between Pravritti – having passion for life, family, business, and Nivritti – the desire to renounce, leave everything behind for individual liberation, moksha.
 
-## LaghuVakyavrutii
+## LaghuVakyavritti
 
 Vakya Vritti is a Vedantic textbook, a small treatise, that concerns itself with the detailed and elaborate explanation of two Mahāvākyas – aham brahmāsmi and tat tvam asi which great Sruti sentences are intended to give a direct perception of Brahman.[1] In his Laghu vakya vritti Adi Shankara deals with the former vakya only.[2]
 
